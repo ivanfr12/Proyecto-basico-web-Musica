@@ -32,7 +32,8 @@ Proyecto
 
 ## Captura de Pantalla
 
-![foto web](https://github.com/user-attachments/assets/f91e77b3-1dc3-4f44-935c-a56927ea6ad7)
+![foto_web](https://github.com/user-attachments/assets/37787259-d662-4652-b60e-435279b9fb37)
+
 
 ## Autor
 **Iván Rodríguez**
