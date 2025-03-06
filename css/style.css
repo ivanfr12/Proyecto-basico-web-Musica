@@ -1,0 +1,196 @@
+/* Import de estilo */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,700;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tiro+Gurmukhi:ital@0;1&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Tiro Gurmukhi", serif, sans-serif;
+}
+
+/* Estilos base */
+.ContenedorP{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ContenedorS{
+    width: 100%;
+    height: 100%;
+}
+
+/* Menu */
+
+.menu{
+    display: flex;
+    height: 80px;
+    width: 100%;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+li{
+    margin: 30px;
+    margin-top: 20px;
+    margin-right: 40px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px black;
+}
+
+.icon{
+    display: flex;
+    height: 40px;
+    margin: 15px;
+    margin-right: 40px;
+}
+
+/* Header caratula */
+header{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/header.jpg);
+}
+
+.sombra{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+/* Titulo */
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    margin-top: 15%;
+    font-size: 70px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+
+/* Contenido de la pagina */
+/* Contenido 1*/
+.cont1{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+
+.inf1{
+    margin: 70px;
+    margin-left: 90px;
+    justify-content: center;
+}
+
+.persona{
+    width: 300px;
+}
+
+h3{
+    text-align: center;
+}
+
+.inf2{
+    margin: 70px;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+.nota{
+    width: 300px;
+}
+
+.inf3{
+    margin: 70px;
+    margin-left: 100px;
+}
+
+.artista{
+    width: 300px;
+}
+
+/* Ultimo contenido */
+.cont2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/contenido2.png);
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.desc_title{
+    margin: 90px;
+    text-align: center;
+    font-size: 70px;
+    border-top: 2px solid black;
+    padding-top: 70px;
+}
+
+.P1{
+    margin: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.cont3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/contenido2.png);
+}
+
+.desc2_title{
+    margin: 90px;
+    text-align: center;
+    font-size: 70px;
+    border-top: 2px solid black;
+    padding-top: 70px;
+}
+
+.P2{
+    margin: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(8, 8, 31);
+}
+
+.final{
+    margin-top: 80px;
+    color: aliceblue;
+}
